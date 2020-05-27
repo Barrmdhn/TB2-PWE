@@ -9,7 +9,7 @@ $hasil=mysqli_query($conn,$sql) or die(mysqli_error());
  	session_start();
  }
  if (empty($_SESSION['username'])) {
- 	header('Location:login.php');
+ 	header('Location:index.html');
  }
 
 ?>
