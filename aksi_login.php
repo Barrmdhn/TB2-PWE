@@ -10,6 +10,6 @@ if($username=="admin" AND $password=="admin")
 	$_SESSION["username"]=$username;
 	header("location:index.php");
 }else{
-	header("location:login.php?login_error");
+	header("location:index.html?login_error");
 }
 ?>
