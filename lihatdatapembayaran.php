@@ -5,7 +5,7 @@ include('template/navigasi.php');
  	session_start();
  }
  if (empty($_SESSION['username'])) {
- 	header('Location:login.php');
+ 	header('Location:index.html');
  }
 ?>
 <div id="main">
