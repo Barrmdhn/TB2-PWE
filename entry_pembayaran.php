@@ -11,7 +11,7 @@ $hasil2=mysqli_query($conn,$sql2) or die(mysqli_error());
  	session_start();
  }
  if (empty($_SESSION['username'])) {
- 	header('Location:login.php');
+ 	header('Location:index.html');
  }
 
 ?>
