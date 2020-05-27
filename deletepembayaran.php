@@ -6,7 +6,7 @@ include 'koneksi/conn.php';
  	session_start();
  }
  if (empty($_SESSION['username'])) {
- 	header('Location:login.php');
+ 	header('Location:index.html');
  }
 $id=$_GET['id_pembayaran'];
 $sql = "DELETE FROM tbl_pembayaran where no_pembayaran='$id'";
