@@ -6,7 +6,7 @@ include('template/navigasi.php');
  	session_start();
  }
  if (empty($_SESSION['username'])) {
- 	header('Location:login.php');
+ 	header('Location:index.html');
  }
 $no = 1;
 $sql = "SELECT * FROM tbl_tiket ORDER BY no_tiket DESC limit 1"; 
