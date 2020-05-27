@@ -6,7 +6,7 @@ include('template/navigasi.php');
  	session_start();
  }
  if (empty($_SESSION['username'])) {
- 	header('Location:login.php');
+ 	header('Location:login.html');
  }
 $id=$_GET['id_tujuan'];
 
