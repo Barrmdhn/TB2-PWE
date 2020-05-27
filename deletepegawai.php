@@ -7,7 +7,7 @@ include 'koneksi/conn.php';
  	session_start();
  }
  if (empty($_SESSION['username'])) {
- 	header('Location:login.php');
+ 	header('Location:index.html');
  }
 $id=$_GET['id_pegawai'];
 $sql = "DELETE FROM tbl_pegawai where no_pegawai='$id'";
