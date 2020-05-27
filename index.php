@@ -2,7 +2,7 @@
 session_start();
 if(isset($_SESSION["username"])){
 }else{
-	echo header("location:login.php");
+	echo header("location:index.html");
 	
 }
 include('template/top.php');
