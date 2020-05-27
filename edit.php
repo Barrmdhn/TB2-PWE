@@ -7,7 +7,7 @@ if(!isset($_SESSION)){
 	session_start();
 }
 if (empty($_SESSION['username'])) {
-	header('Location:login.php');
+	header('Location:index.html');
 }
 
 $id=$_GET['idp'];
