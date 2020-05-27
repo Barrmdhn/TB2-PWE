@@ -14,7 +14,7 @@ include('template/navigasi.php');
 	<div class="content">
 		<?php
 		echo "<h3>Logout Berhasil<h3>";
-		echo "<meta http-equiv='refresh' content='1 url=login.php'>";
+		echo "<meta http-equiv='refresh' content='1 url=index.html'>";
 		?>
 	</div>
 </div>
